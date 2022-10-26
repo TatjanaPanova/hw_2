@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Cross Stitch shop - Registration</title>
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <!-- <a href="index.html"><img src="../res/e4a7feca1793b13f916c37a0473ba2af.svg" alt="Return to home"></a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="iconHome"><a class="nav-link" href="index.html"><img
+                                src="../res/e4a7feca1793b13f916c37a0473ba2af.svg" alt="Return to home"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="terms.html">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="regForm.html">Login</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" aria-label="Search" id="search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="registerSection">
+        <div id="loginDiv">
+            <h1 class="heading1">Log in</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <br>
+                    <input type="password" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+        <div id="registerDiv">
+            <h1 class="heading1">Registration</h1>
+            <form action="">
+                <div>
+                    <input type="text" id="fName" name="fName" required placeholder="First name" />
+                </div>
+                <div>
+                    <input type="text" id="fSurname" name="fSurname" required placeholder="Last name" />
+                </div>
+                <div>
+                    <input type="email" id="fEmail" name="fEmail" required placeholder="E-mail address" />
+                </div>
+                <div>
+                    <input type="text" id="fUName" name="fUName" required placeholder="Choose username" />
+                </div>
+                <div>
+                    <input type="password" id="fPass" name="fPass" required placeholder="Create strong password" />
+                </div>
+                <div>
+                    <input type="text" id="fAddress" name="fAddress" placeholder="Your postal address" />
+                </div>
+                <div>
+                    <input type="number" id="fCredit" name="fCredit" placeholder="Your credit card number" />
+                </div>
+                <div>
+                    <p>Do You want to receive our special offers and newsletters?</p>
+                    <label for="radio1"> Yes, please: <input type="radio" id="radio1" name="news" checked />
+                    </label><br />
+                    <label for="radio2"> No, thanks: <input type="radio" id="radio2" name="news" /> </label><br />
+                    <label for="radio3"> Maybe later: <input type="radio" id="radio3" name="news" />
+                    </label><br /><br />
+                </div>
+                <button type="submit" class="button">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div>
+            &#169; All rights belongs to their authors
+        </div>
+        <div>Some street Nr.XXXX<br>Some city, Some region<br>Phone: XXX-XXX-XXX-XX<br>E-mail:
+            crossstitchshop&commat;inbox.lv</div>
+    </footer>
+</body>
+
+</html>
